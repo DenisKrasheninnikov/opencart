@@ -1,3 +1,87 @@
+/* Изменение цветовой гаммы с синего на зеленый */
+a {
+	color: #14D100;
+}
+a:hover {
+	color: #0D8800;
+	text-decoration: none;
+}
+
+/* Gradent to all drop down menus */
+.dropdown-menu li > a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #14D100;
+	background-image: linear-gradient(to bottom, #14D100, #14D100);
+	background-repeat: repeat-x;
+}
+
+#top #form-currency .currency-select:hover,
+#top #form-language .language-select:hover {
+	text-shadow: none;
+	color: #ffffff;
+	background-color: #14D100;
+	background-image: linear-gradient(to bottom, #14D100, #14D100);
+	background-repeat: repeat-x;
+}
+
+#menu {
+	background-color: #14D100;
+	background-image: linear-gradient(to bottom, #14D100, #14D100);
+	background-repeat: repeat-x;
+	border-color: #14D100 #14D100 #14D100;
+	min-height: 40px;
+}
+
+#menu .see-all:hover, #menu .see-all:focus {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #14D100;
+	background-image: linear-gradient(to bottom, #14D100, #14D100);
+	background-repeat: repeat-x;
+}
+
+#menu .btn-navbar {
+	font-size: 15px;
+	font-stretch: expanded;
+	color: #FFF;
+	padding: 2px 18px;
+	float: right;
+	background-color: #14D100;
+	background-image: linear-gradient(to bottom, #14D100, #14D100);
+	background-repeat: repeat-x;
+	border-color: #14D100 #14D100 #14D100;
+}
+
+#menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
+	color: #ffffff;
+	background-color: #14D100;
+}
+
+.btn-primary {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #14D100;
+	background-image: linear-gradient(to bottom, #14D100, #14D100);
+	background-repeat: repeat-x;
+	border-color: #14D100 #14D100 #14D100;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+	background-color: #14D100;
+	background-position: 0 -15px;
+}
+
+.btn-link {
+	border-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+	color: #14D100;
+	border-radius: 0;
+}
+
+/*_____________________________________________________________________________________ */
+
+
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -32,13 +116,7 @@ h5 {
 h6 {
 	font-size: 10.2px;
 }
-a {
-	color: #14D100;
-}
-a:hover {
-	color: #0D8800;
-	text-decoration: none;
-}
+
 legend {
 	font-size: 18px;
 	padding: 7px 0px
@@ -70,14 +148,7 @@ div.required .control-label:before {
 	color: #F00;
 	font-weight: bold;
 }
-/* Gradent to all drop down menus */
-.dropdown-menu li > a:hover {
-	text-decoration: none;
-	color: #ffffff;
-	background-color: #14D100;
-	background-image: linear-gradient(to bottom, #14D100, #14D100);
-	background-repeat: repeat-x;
-}
+
 /* top */
 #top {
 	background-color: #EEEEEE;
@@ -93,14 +164,7 @@ div.required .control-label:before {
 #top #form-language .language-select {
 	text-align: left;
 }
-#top #form-currency .currency-select:hover,
-#top #form-language .language-select:hover {
-	text-shadow: none;
-	color: #ffffff;
-	background-color: #14D100;
-	background-image: linear-gradient(to bottom, #14D100, #14D100);
-	background-repeat: repeat-x;
-}
+
 #top .btn-link, #top-links li, #top-links a {
 	color: #888;
 	text-shadow: 0 1px 0 #FFF;
@@ -197,13 +261,7 @@ div.required .control-label:before {
 	margin: 20px 0;
 }
 /* menu */
-#menu {
-	background-color: #14D100;
-	background-image: linear-gradient(to bottom, #14D100, #14D100);
-	background-repeat: repeat-x;
-	border-color: #14D100 #14D100 #14D100;
-	min-height: 40px;
-}
+
 #menu .nav > li > a {
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -245,13 +303,7 @@ div.required .control-label:before {
 	border-radius: 0 0 3px 3px;
 	font-size: 12px;
 }
-#menu .see-all:hover, #menu .see-all:focus {
-	text-decoration: none;
-	color: #ffffff;
-	background-color: #14D100;
-	background-image: linear-gradient(to bottom, #14D100, #14D100);
-	background-repeat: repeat-x;
-}
+
 #menu #category {
 	float: left;
 	padding-left: 15px;
@@ -261,21 +313,7 @@ div.required .control-label:before {
 	color: #fff;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
-#menu .btn-navbar {
-	font-size: 15px;
-	font-stretch: expanded;
-	color: #FFF;
-	padding: 2px 18px;
-	float: right;
-	background-color: #14D100;
-	background-image: linear-gradient(to bottom, #14D100, #14D100);
-	background-repeat: repeat-x;
-	border-color: #14D100 #14D100 #14D100;
-}
-#menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
-	color: #ffffff;
-	background-color: #14D100;
-}
+
 @media (min-width: 768px) {
 	#menu .dropdown:hover .dropdown-menu {
 		display: block;
@@ -421,18 +459,7 @@ footer h5 {
 	background-repeat: repeat-x;
 	border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
 }
-.btn-primary {
-	color: #ffffff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #14D100;
-	background-image: linear-gradient(to bottom, #14D100, #14D100);
-	background-repeat: repeat-x;
-	border-color: #14D100 #14D100 #14D100;
-}
-.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #14D100;
-	background-position: 0 -15px;
-}
+
 .btn-warning {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -478,12 +505,7 @@ footer h5 {
 	background-image: none;
 	background-color: #df5c39;
 }
-.btn-link {
-	border-color: rgba(0, 0, 0, 0);
-	cursor: pointer;
-	color: #14D100;
-	border-radius: 0;
-}
+
 .btn-link, .btn-link:active, .btn-link[disabled] {
 	background-color: rgba(0, 0, 0, 0);
 	background-image: none;
